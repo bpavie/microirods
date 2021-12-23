@@ -65,5 +65,5 @@ optional arguments:
 
 #### Example:
 ```
-upload --irods_session C:\Users\myuser\.irods\irods_environment.json --destination /irods/environment --source test_dataset\ --file_extension tif,czi --metadata test_dataset\metadata.xlsx
+python micro_irods upload --irods_session C:\Users\myuser\.irods\irods_environment.json --destination /irods/environment --source test_dataset\ --file_extension tif,czi --metadata test_dataset\metadata.xlsx
 ```
