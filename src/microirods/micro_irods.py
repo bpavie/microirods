@@ -15,7 +15,7 @@ import argparse
 import time
 import sys
 from microirods.get_info import get_file_list
-from uploader import upload_and_set_metadata
+from microirods.uploader import upload_and_set_metadata
 
 
 def upload(args):
